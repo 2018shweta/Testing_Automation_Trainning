@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="annotations">
+  <test thread-count="5" name="example">
+    <classes>
+      <class name="training.testng.Annotations"/>
+      <class name="training.testng.Annotation2"/>
+    </classes>
+  </test> <!-- example -->
+</suite> <!-- annotations -->
